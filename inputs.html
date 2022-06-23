@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="story">Tell us your story:</label>
+
+<textarea id="story" name="story"
+          rows="5" cols="33">
+It was a dark and stormy night...
+</textarea> <br>
+
+<button class="favorite styled"
+        type="button">
+    Add to favorites
+</button>
+
+<label for="ice-cream-choice">Choose a flavor:</label>
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" /><br>
+
+<datalist id="ice-cream-flavors">
+    <option value="Chocolate">
+    <option value="Coconut">
+    <option value="Mint">
+    <option value="Strawberry">
+    <option value="Vanilla">
+</datalist>
+<br>
+<form>
+    <fieldset>
+      <legend>Choose your favorite monster</legend>
+  
+      <input type="radio" id="kraken" name="monster">
+      <label for="kraken">Kraken</label><br/>
+  
+      <input type="radio" id="sasquatch" name="monster">
+      <label for="sasquatch">Sasquatch</label><br/>
+  
+      <input type="radio" id="mothman" name="monster">
+      <label for="mothman">Mothman</label>
+      <p>Custom range slider:</p>
+      
+     
+    </fieldset>
+  </form>
+  <br>
+  <label for="file">File progress:</label>
+  <input type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+    <lable for ="file">File Progress</lable>
+    <progress id="file" max="100" value="70"> 70% </progress>
+
+
+</body>
+</html>
